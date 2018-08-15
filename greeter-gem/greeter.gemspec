@@ -18,4 +18,8 @@ Gem::Specification.new do |s|
 
  s.license     = 'MIT'
 
+ s.bindir      = 'exe'
+ 
+ s.executables << 'greeter'
+
 end
